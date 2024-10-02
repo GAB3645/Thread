@@ -9,7 +9,7 @@ public class Cestino {
         valore = i;
     }
 
-    public void aggiungiMoneta() {
+    synchronized public void aggiungiMoneta() {
 
         valore = valore + 1;
     }
